@@ -2,7 +2,7 @@
 
 # namedsh.sh
 
-if [[ $@ -ne 1 ]]; then
+if [[ $# -ne 1 ]]; then
     # oops, no filename specified
     echo "namedsh.sh: output filename required" >&2
     exit 2
