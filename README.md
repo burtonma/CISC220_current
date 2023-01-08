@@ -7,7 +7,7 @@ The course notebooks are interactive Jupyter notebookss. Students are encouraged
 
 ### View these notes on binder
 
-Students who are having difficulty installing Jupyter and the beakerx kernels can view the notebooks online:
+Students can view the notebooks online:
 
 https://mybinder.org/v2/gh/burtonma/CISC220_2022F/HEAD?urlpath=notebooks%2Fstart_here.ipynb
 
