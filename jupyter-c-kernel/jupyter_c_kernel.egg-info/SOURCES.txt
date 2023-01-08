@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+jupyter_c_kernel/__init__.py
+jupyter_c_kernel/__main__.py
+jupyter_c_kernel/install_c_kernel
+jupyter_c_kernel/kernel.py
+jupyter_c_kernel.egg-info/PKG-INFO
+jupyter_c_kernel.egg-info/SOURCES.txt
+jupyter_c_kernel.egg-info/dependency_links.txt
+jupyter_c_kernel.egg-info/top_level.txt
+jupyter_c_kernel/resources/master.c
+jupyter_c_kernel/resources/stdio_wrap.h

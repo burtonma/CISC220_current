@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: jupyter-c-kernel
+Version: 1.2.1
+Summary: Minimalistic C kernel for Jupyter
+Home-page: https://github.com/brendan-rius/jupyter-c-kernel/
+Author: Brendan Rius
+Author-email: ping@brendan-rius.com
+License: MIT
+Download-URL: https://github.com/brendan-rius/jupyter-c-kernel/tarball/1.2.1
+Description: UNKNOWN
+Keywords: jupyter,notebook,kernel,c
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
