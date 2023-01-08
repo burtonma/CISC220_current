@@ -4,5 +4,3 @@ channels:
   - defaults
 dependencies:
   - bash_kernel
-  - pip:
-    - jupyter-c-kernel

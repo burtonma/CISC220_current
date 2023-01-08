@@ -1,3 +1,10 @@
 #!/bin/bash
 
-install_c_kernel --user
+# install C kernel
+cd jupyter-c-kernel
+pip install -e .
+cd jupyter_c_kernel
+chmod u+x install_c_kernel
+./install_c_kernel --user
+cd
+
