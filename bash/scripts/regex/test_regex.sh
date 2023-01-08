@@ -9,7 +9,7 @@ fi
 str=$1
 re=$2
 if [[ $str =~ $re ]]; then
-    cho "The string $str is matched by the regex $re"
+    echo "The string $str is matched by the regex $re"
 else
     echo "The string $str is not matched by the regex $re"
 fi
