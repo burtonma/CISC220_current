@@ -1,0 +1,4 @@
+# student number, last name, first name
+12345,Parr,Jack-Jack
+23456,Wazowski,Mike
+98765,Best,Lucius
