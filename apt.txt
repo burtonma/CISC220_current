@@ -2,5 +2,5 @@ aspell
 bsdmainutils
 cmatrix
 cowsay
-fortune
+fortune-mod
 toilet
