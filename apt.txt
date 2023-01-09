@@ -1,4 +1,5 @@
 aspell
+cal
 cmatrix
 cowsay
 fortune
