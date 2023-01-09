@@ -3,4 +3,5 @@ bsdmainutils
 cmatrix
 cowsay
 fortune-mod
+fortunes-min
 toilet
