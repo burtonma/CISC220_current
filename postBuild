@@ -8,3 +8,10 @@ chmod u+x install_c_kernel
 ./install_c_kernel --user
 cd
 
+# add links for fortune and cowsay
+cd ~/.local
+mkdir bin
+cd bin
+ln -s /usr/games/fortune fortune
+ln -s /usr/games/cowsay cowsay
+cd
