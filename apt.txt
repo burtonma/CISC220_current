@@ -1,0 +1,5 @@
+aspell
+cmatrix
+cowsay
+fortune
+toilet
