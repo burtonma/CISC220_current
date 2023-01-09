@@ -1,6 +1,6 @@
 aspell
-cal
 cmatrix
 cowsay
 fortune
+ncal
 toilet
