@@ -1,6 +1,6 @@
 aspell
+bsdmainutils
 cmatrix
 cowsay
 fortune
-ncal
 toilet
