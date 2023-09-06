@@ -1,4 +1,4 @@
-# CISC220-Fall-2022
+# CISC220-current
 Course resources for CISC220 at Queen's University.
 
 ## Jupyter notebooks
