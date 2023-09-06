@@ -1,0 +1,48 @@
+001 #include <stdio.h>
+002 #include <stdlib.h>
+003 
+004 int main(void) {
+005     int status = EXIT_FAILURE;
+006     
+007     // input file
+008     char in_name[] = "./src/io/catn.c";
+009     FILE *f_in = fopen(in_name, "r");
+010     if (!f_in) {
+011         perror("fopen() failed");
+012         exit(status);
+013     }
+014     
+015     // output file
+016     char out_name[] = "./src/io/catn_with_line_numbers.txt";
+017     FILE *f_out = fopen(out_name, "w");
+018     if (!f_out) {
+019         perror("fopen() failed");
+020         exit(status);
+021     }
+022     
+023     // current line number (starting at 1)
+024     int line_num = 1;
+025     
+026     // input and output line buffers
+027     char str_in[100];
+028     char str_out[104];
+029     while (fgets(str_in, 100, f_in) != NULL) {
+030         sprintf(str_out, "%03d %s", line_num, str_in);
+031         fputs(str_out, f_out);
+032         if (ferror(f_out)) {
+033             break;
+034         }
+035 	line_num++;
+036     }
+037     if (ferror(f_in) || ferror(f_out)) {
+038         fprintf(stderr, "I/O error");
+039     }
+040     else if (feof(f_in)) {
+041         status = EXIT_SUCCESS;
+042     }
+043     
+044     fclose(f_in);
+045     fclose(f_out);
+046     return status;
+047 }
+048 
