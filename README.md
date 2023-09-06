@@ -9,5 +9,5 @@ The course notebooks are interactive Jupyter notebookss. Students are encouraged
 
 Students can view the notebooks online:
 
-https://mybinder.org/v2/gh/burtonma/CISC220_2022F/HEAD?urlpath=notebooks%2Fstart_here.ipynb
+https://mybinder.org/v2/gh/burtonma/CISC220_current/HEAD?urlpath=notebooks%2Fstart_here.ipynb
 
